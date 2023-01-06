@@ -5,6 +5,11 @@
      box-sizing: border-box;
      font-family: 'Inter', sans-serif;
 }
+section{
+     max-width: 1140px;
+     text-align: center;
+     margin: 100px auto;
+}
 
 /* Header Section Style */
 
@@ -28,13 +33,14 @@
      font-size: 55px;
      color: #ffffff;
 }
-.he-description{
+.section-description{
      width: 527px;
      margin: 0 auto;
      padding:40px 0 30px;
      font-family: 'Poppins', sans-serif;
+}
+.header-item .section-description{
      color:#ffffff;
-
 }
 .btn-primary{
      color: #ffffff;
@@ -47,4 +53,53 @@
 }
 .btn-primary:hover{
      background-color: rgb(136, 45, 12);
+}
+
+/* Donate today style */
+
+.donate{
+     width: 660px;
+     margin: 0 auto;
+}
+.section-title{
+     font-size: 45px;
+     font-weight: 800;
+}
+.section-description{
+
+}
+.amount-tk{
+     padding: 30px 15px;
+    
+
+}
+.active{
+     border: 2px solid #FF5959;
+     border-radius: 5px;
+     background:#FFEEEE;
+}
+.amount-tk:hover{
+     border: 2px solid #FF5959;
+     border-radius: 5px;
+     background:#FFEEEE;
+}
+.amount-item{
+     display: flex;
+     font-size: 30px;
+     font-weight: 700;
+     color: #707070;
+}
+.total input[type=number]{
+    padding: 20px;
+    border: none;
+    border-bottom: 1px solid #a6a0a0;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+}
+input[type=number]:focus{
+     background-color:#FFEEEE;;
+     outline: none;
+     border-color: rgb(72, 68, 68);
 }
