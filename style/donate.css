@@ -8,7 +8,7 @@
 section{
      max-width: 1140px;
      text-align: center;
-     margin: 100px auto;
+     margin: 200px auto;
 }
 
 /* Header Section Style */
@@ -127,4 +127,32 @@ input[type=number]:focus{
      background: #d1a6a657;
 }.group3{
      background: #c9c48957;
+}
+/* Donation section style */
+
+.donation-section{
+     display: flex;
+     text-align: left;
+     gap: 50px;
+}
+.donation{
+     width: 600px;
+}   
+.donation h3{
+     font-weight: 800;
+     margin-bottom: 20px;
+}
+.donation p{
+     width: 400px;
+     margin-bottom: 20px;
+     margin-left: 0;
+}
+.donation-img{
+     width: 420px;
+     height: 430px;
+      
+}
+.donation-img img{
+     width: 420px;
+     height: 430px;
 }
