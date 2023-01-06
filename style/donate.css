@@ -103,3 +103,28 @@ input[type=number]:focus{
      outline: none;
      border-color: rgb(72, 68, 68);
 }
+/* Our plan style */
+
+.plan-detail{
+     display: flex;
+     justify-content: space-around;
+     gap: 24px;
+}
+.plan-group{
+     width: 324px;
+     background: #FF5959;
+     text-align: left;
+     padding: 60px 10px;
+     
+}
+.plan-group h3{
+     padding: 20px 0;
+}
+.group1{
+     background: #c5afaf57;
+}
+.group2{
+     background: #d1a6a657;
+}.group3{
+     background: #c9c48957;
+}
