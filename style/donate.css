@@ -156,3 +156,52 @@ input[type=number]:focus{
      width: 420px;
      height: 430px;
 }
+/* Update section style */
+
+.update-section{
+     width: 750px;
+}
+.up-description{
+     width: 600px;
+     padding: 40px 10px;
+}
+.contact{
+     background:#dcd58a57;
+     padding: 100px;
+}
+.contact input[type=email]{
+     padding: 15px 30px;
+     border: none;
+     border-radius: 5px 0 0 5px;
+     
+}
+.contact input[type=email]:focus{
+     background: #b7afaf;
+     outline: none;
+}
+.contact input[type=submit]{
+     padding: 15px 20px;
+     border: none;
+     color:#ffffff;
+     background: orangered;
+     border-radius: 0 5px 5px 0;
+}
+/* footer area style */
+
+.footer-area{
+     width: 100%;
+     height: 150px;
+     background: #0f0f0f;
+     text-align: center;
+     padding: 30px 0;
+}
+.footer-title{
+     color:#FF5959;
+     padding-bottom: 20px;
+     font-family: 'Lobster', cursive;
+     font-size: 30px;
+     letter-spacing: 2px;
+}
+.footer-area p{
+     color: #ffffff;
+}
